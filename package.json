@@ -1,0 +1,18 @@
+{
+  "name": "otobit-backendtask",
+  "version": "1.0.0",
+  "description": "Task: Develop a RESTful API with Node.js\r Background:\r Your task is to develop a RESTful API that will be used by a web-based application to\r manage users. The API should be built using Node.js and should interact with a MongoDB\r database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}

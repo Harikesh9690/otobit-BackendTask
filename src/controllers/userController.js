@@ -12,7 +12,6 @@ const isValid = function (value) {
 const createuser = async function (req, res) {
     try {
         let data = req.body
-        console.log(data)
         const { name, email, password} = data
         let passValid = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,15}$/
         let emailValid = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/
